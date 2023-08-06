@@ -2,7 +2,7 @@ import java.util.*;
 
 public class factorial {
 
-    int factorial(int num){
+    static int factorial(int num){
         if(num==0 || num==1){
             return 1;
         }
